@@ -80,7 +80,7 @@ $$
 
 $$
 output_k
-=
+{=}
 sigmoid(sum(\begin{bmatrix} 
 w_{11}*o_{k1} \\
 w_{21}*o_{k2} \\
