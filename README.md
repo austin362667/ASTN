@@ -89,7 +89,7 @@ $$
 ## 我們的損失函數(與梯度)
 
 $$
-E_k = target_k - output_k
+E_k {=} target_k - output_k
 $$
 
 求梯度
@@ -107,19 +107,19 @@ $$
 
 $$
 \frac{\partial E_k}{\partial o_k}
-=
+{=}
 - (t_k - o_k)
 $$
 
 $$
 \frac{\partial o_k}{\partial \sum_k}
-=
+{=}
 o_k(1-o_k)
 $$
 
 $$
 \frac{\partial \sum_k}{\partial w_{jk}}
-=
+{=}
 o_j
 $$
 
@@ -127,7 +127,7 @@ $$
 
 $$
 \nabla w_{jk}
-=
+{=}
 - (t_k - o_k)
 *
 o_k(1-o_k)
@@ -154,13 +154,13 @@ w_{31} & w_{23} \\
 e_1^{output} \\
 e_2^{output} \\
 \end{bmatrix} 
-=
+{=}
 \begin{bmatrix} 
 w_{11}*e_1^{output} & w_{21}*e_2^{output} \\
 w_{21}*e_1^{output} & w_{22}*e_2^{output} \\
 w_{31}*e_1^{output} & w_{23}*e_2^{output} \\
 \end{bmatrix}
-=
+{=}
 \begin{bmatrix} 
 e_1^{hidden} \\
 e_2^{hidden} \\
@@ -172,7 +172,7 @@ $$
 
 $$
 \nabla w_{jk}
-=
+{=}
 - lr * (t_k - o_k)
 *
 o_k(1-o_k)
