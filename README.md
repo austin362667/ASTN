@@ -6,7 +6,6 @@
 - 損失函數: MSE
 - 矩陣套件: gonum
 
----
 原本打算不動腦直接模仿 Karpathy 的專案 [MicroGrad](https://github.com/karpathy/micrograd/tree/master/micrograd)
 
 但 Python 和 Go 的語法實在差太多了...
@@ -26,7 +25,6 @@
 輸入
 `./nanograd -mnist predict` 以預測(約5~10 secs)
 
----
 ## 從 input layer 到 hidden layer
 
 $$
@@ -39,8 +37,8 @@ w_{31} & w_{23} \\
 \begin{bmatrix} 
 i_1 \\
 i_2 \\
-\end{bmatrix} 
- = 
+\end{bmatrix}
+= 
 \begin{bmatrix} 
 w_{11}*i_1 & w_{21}*i_2 \\
 w_{21}*i_1 & w_{22}*i_2 \\
@@ -77,7 +75,6 @@ $$
 \sum_{i=1}^N -(y_i - (m*x_i+b))
 $$
 
----
 ## 從 hidden layer 到 output layer
 
 $$
@@ -90,7 +87,6 @@ w_{31}*o_{k3} \\
 \end{bmatrix}))
 $$
 
----
 ## 我們的損失函數(與梯度)
 
 $$
@@ -140,8 +136,6 @@ o_k(1-o_k)
 o_j
 $$
 
----
-
 ## 反傳遞
 
 根據前一個隱藏層的連接，輸出層的誤差是由來自隱藏層的誤差貢獻的。
@@ -175,8 +169,6 @@ e_3^{hidden} \\
 \end{bmatrix} 
 $$
 
----
-
 ### 學習率
 
 $$
@@ -191,15 +183,11 @@ $$
 
 最後乘上學習率`learning rate (lr)`就完成啦！恭喜～
 
----
-
 ### 參考資料
 
 - [梯度下降算法 by 陳鍾誠老師](https://gitlab.com/ccc110/ai/-/tree/master/07-neural/02-gradient)
 - [Cross Entropy vs. MSE as Cost Function for Logistic Regression for Classification](https://www.youtube.com/watch?v=m0ZeT1EWjjI)
 - [An Introduction to Gradient Descent and Linear Regression](https://spin.atomicobject.com/2014/06/24/gradient-descent-linear-regression/)
-
----
 
 ## log
 
