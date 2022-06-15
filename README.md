@@ -99,7 +99,7 @@ $$
 - 求梯度
 
 $$
-\nabla w_{jk}
+\Delta w_{jk}
 {=}
 \frac{\partial E_k}{\partial o_k}
 *
