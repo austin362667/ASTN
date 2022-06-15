@@ -106,7 +106,7 @@ $$
 \frac{\partial {\sum}_k}{\partial w_{jk}}
 $$
 
-經過
+</br>經過</br>
 
 $$
 \frac{\partial E_k}{\partial o_k}
