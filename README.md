@@ -63,7 +63,7 @@ $$
 \frac{\partial}{\partial m}
 {=}
 \frac{2}{N}
-\sum_{i{=}1}^N -x_i*(y_i - (m*x_i+b))
+\sum_{i{=}1}^N -x_i*(y_i {-} (m*x_i+b))
 $$
 
  - partial `b`
@@ -71,7 +71,7 @@ $$
 \frac{\partial}{\partial b}
 {=}
 \frac{2}{N}
-\sum_{i{=}1}^N -(y_i - (m*x_i+b))
+\sum_{i{=}1}^N -(y_i {-} (m*x_i+b))
 $$
 
 ## 從 hidden layer 到 output layer
@@ -108,7 +108,7 @@ $$
 $$
 \frac{\partial E_k}{\partial o_k}
 {=}
-- (t_k - o_k)
+{-}(t_k - o_k)
 $$
 
 $$
