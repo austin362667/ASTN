@@ -96,15 +96,15 @@ $$
 
 求梯度
 
-$$
-\Delta w_{jk}
+$
+\nabla w_{jk}
 {=}
 \frac{\partial E_k}{\partial o_k}
 *
 \frac{\partial o_k}{\partial {\sum}_k}
 *
 \frac{\partial {\sum}_k}{\partial w_{jk}}
-$$
+$
 
 經過
 
@@ -128,15 +128,15 @@ $$
 
 得
 
-$$
-\Delta w_{jk}
+$
+\nabla w_{jk}
 {=}
 {-}(t_k - o_k)
 {*}
 o_k(1-o_k)
 {*}
 o_j
-$$
+$
 
 ## 反傳遞
 
@@ -173,15 +173,15 @@ $$
 
 ### 學習率
 
-$$
-\Delta w_{jk}
+$
+\nabla w_{jk}
 {=}
 {-}lr {*} (t_k - o_k)
 {*}
 o_k(1-o_k)
 {*}
 o_j
-$$
+$
 
 最後乘上學習率`learning rate (lr)`就完成啦！恭喜～
 
