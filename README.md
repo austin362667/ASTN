@@ -99,9 +99,9 @@ $$
 \nabla w_{jk}
 {=}
 \frac{\partial E_k}{\partial o_k}
-*
+{*}
 \frac{\partial o_k}{\partial \sum_k}
-*
+{*}
 \frac{\partial \sum_k}{\partial w_{jk}}
 $$
 
@@ -131,9 +131,9 @@ $$
 \nabla w_{jk}
 {=}
 {-}(t_k - o_k)
-*
+{*}
 o_k(1-o_k)
-*
+{*}
 o_j
 $$
 
@@ -175,10 +175,10 @@ $$
 $$
 \nabla w_{jk}
 {=}
-{-}lr * (t_k - o_k)
-*
+{-}lr {*} (t_k - o_k)
+{*}
 o_k(1-o_k)
-*
+{*}
 o_j
 $$
 
