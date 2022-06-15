@@ -97,7 +97,7 @@ $$
 求梯度
 
 $$
-\nabla w_{jk}
+\Delta w_{jk}
 {=}
 \frac{\partial E_k}{\partial o_k}
 *
@@ -129,7 +129,7 @@ $$
 得
 
 $$
-\nabla w_{jk}
+\Delta w_{jk}
 {=}
 {-}(t_k - o_k)
 {*}
@@ -174,7 +174,7 @@ $$
 ### 學習率
 
 $$
-\nabla w_{jk}
+\Delta w_{jk}
 {=}
 {-}lr {*} (t_k - o_k)
 {*}
