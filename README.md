@@ -58,7 +58,8 @@ $$
 
 ### Partial Derivative
 
-partial `m`
+- partial `m`
+
 $$
 \frac{\partial}{\partial m}
 {=}
@@ -66,7 +67,8 @@ $$
 \sum_{i{=}1}^N {-}x_i*(y_i {-} (m*x_i{+}b))
 $$
 
-partial `b`
+- partial `b`
+
 $$
 \frac{\partial}{\partial b}
 {=}
