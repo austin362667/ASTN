@@ -95,6 +95,7 @@ E_k {=} target_k {-} output_k
 $$
 
 求梯度
+
 $$
 \nabla w_{jk}
 {=}
