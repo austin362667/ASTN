@@ -103,7 +103,7 @@ $$
 *
 \frac{\partial o_k}{\partial {\sum}_k}
 *
-\frac{\partial \sum_k}{\partial w_{jk}}
+\frac{\partial {\sum}_k}{\partial w_{jk}}
 $$
 
 經過
