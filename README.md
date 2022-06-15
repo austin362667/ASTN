@@ -102,9 +102,9 @@ $$
 \Delta w_{jk}
 {=}
 \frac{\partial E_k}{\partial o_k}
-*
+{*}
 \frac{\partial o_k}{\partial {\sum}_k}
-*
+{*}
 \frac{\partial {\sum}_k}{\partial w_{jk}}
 $$
 
