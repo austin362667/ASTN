@@ -185,6 +185,7 @@ $$
 ### 參考資料
 
 - [梯度下降算法 by 陳鍾誠老師](https://gitlab.com/ccc110/ai/-/tree/master/07-neural/02-gradient)
+- [Backpropagation through a fully-connected layer](https://eli.thegreenplace.net/2018/backpropagation-through-a-fully-connected-layer/)
 - [Cross Entropy vs. MSE as Cost Function for Logistic Regression for Classification](https://www.youtube.com/watch?v=m0ZeT1EWjjI)
 - [An Introduction to Gradient Descent and Linear Regression](https://spin.atomicobject.com/2014/06/24/gradient-descent-linear-regression/)
 
