@@ -90,11 +90,13 @@ $$
 
 ## 我們的損失函數(與梯度)
 
+- 用這個計算錯誤程度的算法
+
 $$
 E_k {=} target_k {-} output_k
 $$
 
-求梯度 </br>
+- 求梯度
 
 $$
 \nabla w_{jk}
@@ -106,7 +108,7 @@ $$
 \frac{\partial {\sum}_k}{\partial w_{jk}}
 $$
 
-</br>經過</br>
+- 經過
 
 $$
 \frac{\partial E_k}{\partial o_k}
@@ -126,7 +128,7 @@ $$
 o_j
 $$
 
-得
+- 得
 
 $$
 \nabla w_{jk}
