@@ -29,9 +29,7 @@
 ---
 ## 從 input layer 到 hidden layer
 
-$$
-\begin{bmatrix} w_{11} & w_{21} \\ w_{21} & w_{22} \\ w_{31} & w_{23} \end{bmatrix} \cdot \begin{bmatrix} i_1 \\ i_2 \\ \end{bmatrix} = \begin{bmatrix} w_{11}*i_1 & w_{21}*i_2 \\ w_{21}*i_1 & w_{22}*i_2 \\ w_{31}*i_1 & w_{23}*i_2 \end{bmatrix} 
-$$
+$$\begin{bmatrix} w_{11} & w_{21} \\ w_{21} & w_{22} \\ w_{31} & w_{23} \end{bmatrix} \cdot \begin{bmatrix} i_1 \\ i_2 \\ \end{bmatrix} = \begin{bmatrix} w_{11}*i_1 & w_{21}*i_2 \\ w_{21}*i_1 & w_{22}*i_2 \\ w_{31}*i_1 & w_{23}*i_2 \end{bmatrix}$$
 
 ---
 ## 用線性回歸理解損失函數(的偏微分)
