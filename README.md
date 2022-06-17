@@ -25,7 +25,7 @@
 輸入
 `./nanograd -mnist predict` 以預測(約5~10 secs)
 
-為了方便快速測試，training set 只留下 100 張，因此 6 成左右正確率是合理的;底下 log 檔則是我用原始training set 大小 10000 張訓練，正確率在 9 成 5。
+為了方便快速測試，training set 只留下 100 張，因此 6 成左右正確率是合理的;底下 log 檔則是我用原始 training set 大小 10000 張訓練，正確率在 9 成 7。
 
 ## 從 input layer 到 hidden layer
 
