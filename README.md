@@ -171,7 +171,7 @@ $$
 
 ### 學習率
 
-最後乘上學習率learning rate `lr`:
+最後乘上學習率 learning rate `lr`:
 
 $$
 \nabla w_{jk}
